@@ -14,6 +14,7 @@
 		
 		<table>
 		<tr>
+		<th>Id</th>
 		<th>from</th>
 		<th>To</th>
 		<th>Time</th>
@@ -35,6 +36,7 @@
 		
 		 %>
 		 <tr>
+		 <td> <%=fList.get(i).getId() %></td>
 		 <td> <%=fList.get(i).getFlightOrigin() %></td>
 		 <td><%=fList.get(i).getFlightDestination() %></td>
 		 <td><%=fList.get(i).getFlightTime() %></td>
@@ -84,6 +86,11 @@
 		 	  %>
 		 	  </td>
 		 
+		 </tr>
+		 
+		 <tr>
+		 
+		 <td colspan="8">No Passengers on this flight yet.</td>
 		 </tr>
 		 
 		<%

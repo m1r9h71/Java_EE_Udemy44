@@ -39,7 +39,7 @@ public class PassengerService {
     	
     		List<Passenger> pList = query.getResultList();
     			
-    		return null;
+    		return pList;
     	
     }
 
