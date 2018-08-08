@@ -21,15 +21,15 @@
 
 	<h1>Add flight and airplane</h1>
 
-	<form method="POST" action="">
+	<form method="POST" action="AddFlight">
 
 		From:  
 
-		<select id="from_destination" name="from_destination">
+		<select name="from_destination">
 			<option value="San_Francisco">San Francisco</option>
 			<option value="Los_Angeles">Los Angeles</option>
 			<option value="New_York">New York</option>
-			<option value="London">London</option>
+			<option value="London_Gatwick">London Gatwick</option>
 			<option value="Paris">Paris</option>
 			<option value="Rome">Rome</option>
 			<option value="Amsterdam">Amsterdam</option>
@@ -43,7 +43,7 @@
 			<option value="San_Francisco">San Francisco</option>
 			<option value="Los_Angeles">Los Angeles</option>
 			<option value="New_York">New York</option>
-			<option value="London">London</option>
+			<option value="London_Gatwick">London Gatwick</option>
 			<option value="Paris">Paris</option>
 			<option value="Rome">Rome</option>
 			<option value="Amsterdam">Amsterdam</option>
